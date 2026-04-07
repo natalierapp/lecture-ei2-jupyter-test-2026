@@ -1,0 +1,24 @@
+jupyterlab==4.0.0
+pandas==2.3.3
+numpy==2.3.5
+pandapower==3.3.0
+fmpy==0.3.27
+bokeh==3.8.2
+openpyxl==3.1.2
+
+# From Philipp to evade psycopg2
+numpydoc
+sphinx
+sphinx_rtd_theme
+sphinx-pyproject
+igraph
+geopandas
+pytest>=7.0
+pytest-xdist
+nbmake
+ortools
+lightsim2grid==0.10.1
+xlsxwriter
+cryptography
+matpowercaseframes
+power-grid-model-io
