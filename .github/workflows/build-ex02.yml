@@ -1,0 +1,15 @@
+name: Build and Publish Docker Image for Exercise 02
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - ".github/workflows/build.yml"
+            - ".github/workflows/build-ex01.yml"
+            - "Exercise 02 Energy System Analysis/**"
+jobs:
+    ex02:
+        uses: ./.github/workflows/build.yml
+        with:
+            path: "Exercise 02 Energy System Analysis"
+            name: ei2-ex02
