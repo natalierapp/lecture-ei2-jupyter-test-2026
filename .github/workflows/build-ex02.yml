@@ -5,7 +5,7 @@ on:
             - main
         paths:
             - ".github/workflows/build.yml"
-            - ".github/workflows/build-ex01.yml"
+            - ".github/workflows/build-ex02.yml"
             - "Exercise 02 Energy System Analysis/**"
 jobs:
     ex02:
