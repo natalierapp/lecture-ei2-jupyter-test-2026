@@ -1,0 +1,13 @@
+numpy
+pandas
+matplotlib
+plotly
+pyomo
+pypower
+pandapower
+scipy
+networkx
+jupyter
+ipykernel
+highspy
+ipopt
