@@ -2,7 +2,7 @@
 # $ conda create --name <env> --file <this file>
 # platform: osx-arm64
 # created-by: conda 26.1.1
-_openmp_mutex=4.5=7_kmp_llvm
+#_openmp_mutex=4.5=7_kmp_llvm
 absl-py=2.4.0=pypi_0
 ampl-asl=1.0.0=h286801f_2
 annotated-types=0.7.0=pypi_0
