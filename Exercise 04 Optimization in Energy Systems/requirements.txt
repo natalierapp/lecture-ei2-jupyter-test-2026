@@ -31,7 +31,7 @@ fqdn==1.5.1
 geojson==3.2.0
 geopandas==1.1.3
 h11==0.16.0
-highspy @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_highspy_1775498423/work
+#highspy @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_highspy_1775498423/work
 httpcore==1.0.9
 httpx==0.28.1
 idna==3.11
@@ -79,7 +79,7 @@ networkx==3.4.2
 notebook==7.5.5
 notebook_shim==0.2.4
 numba==0.65.0
-numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1747544633931/work/dist/numpy-2.2.6-cp310-cp310-macosx_11_0_arm64.whl#sha256=50a17562ef677de6531058e998e32487919c216e19ca4e1bdd86b0e1262251c1
+numpy==2.2.6 #numpy @ file:///Users/runner/miniforge3/conda-bld/numpy_1747544633931/work/dist/numpy-2.2.6-cp310-cp310-macosx_11_0_arm64.whl#sha256=50a17562ef677de6531058e998e32487919c216e19ca4e1bdd86b0e1262251c1
 openpyxl==3.1.5
 orderly-set==5.5.0
 ortools==9.15.6755
@@ -109,7 +109,7 @@ pydantic==2.13.3
 pydantic_core==2.46.3
 Pygments==2.20.0
 pyogrio==0.12.1
-pyomo @ file:///Users/runner/miniforge3/conda-bld/pyomo_1771630809215/work
+pyomo==6.7.3 #@ file:///Users/runner/miniforge3/conda-bld/pyomo_1771630809215/work
 pyparsing==3.3.2
 PYPOWER==5.1.19
 pyproj==3.7.1
