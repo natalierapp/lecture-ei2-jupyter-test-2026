@@ -6,11 +6,10 @@ on:
         paths:
             - ".github/workflows/build.yml"
             - ".github/workflows/build-ex04.yml"
-            - "Exercise 04 Energy System Analysis/**"
+            - "Exercise 04 Optimization in Energy Systems/**"
 jobs:
     ex04:
         uses: ./.github/workflows/build.yml
         with:
             path: "Exercise 04 Optimization in Energy Systems"
             name: ei2-ex04
-        
