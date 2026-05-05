@@ -27,7 +27,7 @@ fonttools==4.62.1
 fqdn==1.5.1
 geojson==3.2.0
 h11==0.16.0
-highspy=1.14.0 @ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_highspy_1775498673/work
+highspy=1.14.0 #@ file:///Users/runner/miniforge3/conda-bld/bld/rattler-build_highspy_1775498673/work
 httpcore==1.0.9
 httpx==0.28.1
 idna==3.13
