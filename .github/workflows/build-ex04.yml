@@ -13,3 +13,4 @@ jobs:
         with:
             path: "Exercise 04 Optimization in Energy Systems"
             name: ei2-ex04
+        
