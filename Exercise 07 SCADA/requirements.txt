@@ -1,0 +1,5 @@
+pandapower[plotting,performance,converter,pgm,control]==3.1.1
+xlsxwriter
+openpyxl
+cryptography
+geopandas>=1.0

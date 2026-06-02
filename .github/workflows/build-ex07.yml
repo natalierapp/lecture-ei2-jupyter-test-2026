@@ -1,0 +1,16 @@
+name: Build and Publish Docker Image for Exercise 07
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - ".github/workflows/build.yml"
+            - ".github/workflows/build-ex07.yml"
+            - "Exercise 07 SCADA/**"
+jobs:
+    ex07:
+        uses: ./.github/workflows/build.yml
+        with:
+            path: "Exercise 07 SCADA"
+            name: ei2-ex07
+  
