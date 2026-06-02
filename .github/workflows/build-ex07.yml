@@ -12,5 +12,4 @@ jobs:
         uses: ./.github/workflows/build.yml
         with:
             path: "Exercise 07 SCADA"
-            name: ei2-ex07
-            
+            name: ei2-ex07       

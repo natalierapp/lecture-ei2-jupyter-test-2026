@@ -1,5 +1,5 @@
 #pandapower[plotting,performance,converter,pgm,control]==3.1.1
-pandapower
+pandapower[plotting,performance,converter,pgm,control]
 xlsxwriter
 openpyxl
 cryptography
