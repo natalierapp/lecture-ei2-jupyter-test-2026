@@ -1,6 +1,6 @@
-pandapower[plotting,performance,converter,pgm,control]==3.1.1
+#pandapower[plotting,performance,converter,pgm,control]==3.1.1
+pandapower
 xlsxwriter
 openpyxl
 cryptography
 geopandas>=1.0
-pandas<2.0
