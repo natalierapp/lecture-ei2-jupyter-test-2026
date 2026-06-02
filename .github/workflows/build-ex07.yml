@@ -13,4 +13,3 @@ jobs:
         with:
             path: "Exercise 07 SCADA"
             name: ei2-ex07
-  

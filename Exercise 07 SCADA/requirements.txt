@@ -3,3 +3,4 @@ xlsxwriter
 openpyxl
 cryptography
 geopandas>=1.0
+pandas<2.0
