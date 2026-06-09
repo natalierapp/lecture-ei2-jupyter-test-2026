@@ -1,0 +1,15 @@
+name: Build and Publish Docker Image for Exercise 08
+on:
+    push:
+        branches:
+            - main
+        paths:
+            - ".github/workflows/build.yml"
+            - ".github/workflows/build-ex08.yml"
+            - "Exercise 08 Data Analysis/**"
+jobs:
+    ex08:
+        uses: ./.github/workflows/build.yml
+        with:
+            path: "Exercise 08 Data Analysis"
+            name: ei2-ex08       
